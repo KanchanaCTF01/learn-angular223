@@ -1,0 +1,17 @@
+.container {
+    margin: 12px 12px;
+}
+.main-config-name {
+    font-weight: bold;
+}
+.value {
+    margin: 2px 2px;
+}
+.value >input {
+    width: 50%;
+}
+
+.value >select {
+    width: 40%;
+
+}

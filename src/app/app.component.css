@@ -1,0 +1,67 @@
+.container {
+    padding: 5px 5vw;
+}
+
+.search {
+    border: 1px solid lightgray;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.search > input {
+    width: 80%;
+    border: none;
+}
+.search > div {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin-left: 5px;
+    padding: 0px 5px;
+    width: 18%;
+    text-align: center;
+}
+.search > input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.tab-menu > div {
+    display: inline-block;
+    padding: 10px;
+
+}
+.tab-menu > div:hover {
+    cursor: pointer;
+    
+}
+
+.active {
+    border-bottom: 1px solid gray;
+}
+.setting-panel {
+    margin: 10px 0px;
+}
+.settingTreeView {
+    display:inline-block;
+    width: 20%;
+    height: 630px;
+    vertical-align:top;
+    margin-top: 10px;
+}
+.settingTreeView > span {
+    padding-left: 17px;
+
+}
+
+.settingConfigs {
+    padding-left: 15px;
+    display: inline-block;
+    width: 70%;
+}
+.settingConfigs > h5 {
+    margin-top: 10px;
+}
+
